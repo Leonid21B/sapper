@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*{
+  box-sizing: border-box;
+}
+.container{
+  width: 32vw;
+  height: 39vw;
+  display: flex;
+  padding: 1vw;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:darkgray; 
+  border-right: 4px solid grey;
+  border-bottom: 4px solid grey;
+  border-top: 4px solid white;
+  border-left: 4px solid white;
+  flex-direction: column;
+}

@@ -1,0 +1,15 @@
+.container{
+  border-left: 4px solid grey;
+  border-top: 4px solid grey;
+  border-right: 4px solid white;
+  border-bottom: 4px solid white;
+  padding: 1vw;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.face{
+  cursor: pointer;
+  width: 4vw;
+  height: 4vw;
+}
