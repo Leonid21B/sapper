@@ -29,7 +29,6 @@ export const fieldStartGame = (pos:number,bombsCount:number) => {
     if(rand < 16 * 15) arr[rand+16]['count'] += 1
     if(rand < 16 * 15 + 1 && rand % 16 !== 0) arr[rand+15]['count'] += 1
   }
-  console.log(arr)
   return arr
 }
 
@@ -42,7 +41,6 @@ export const fieldStepOpen = (pos:number,arr:GameItemType[]) => {
   const map = new Map()
   newArr[pos]['open'] = null
   const recourcive = (p:number) => {
-    console.log(points)
     
     if(newArr[p]['count'] !== 0){
       return
@@ -64,7 +62,6 @@ export const fieldStepOpen = (pos:number,arr:GameItemType[]) => {
     return
   }
   recourcive(pos)
-  console.log(points)
   return [() => points,newArr]
 }
 

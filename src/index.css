@@ -17,6 +17,8 @@ code {
 .container{
   width: 32vw;
   height: 39vw;
+  min-width: 300px;
+  min-height: 366px;
   display: flex;
   padding: 1vw;
   margin-top: 20px;
